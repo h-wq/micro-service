@@ -2,7 +2,7 @@ spring:
   application:
     name: micro-service
   profiles:
-    active: dev
+    active: online
 
 server:
   port: 8088
