@@ -79,6 +79,6 @@ EOF
 
 smart_run "
         cd $remote_path &&
-        cd ../
+        cd ../ &&
         ./build.sh $env $MODULE $ALL_MODULES
     "
